@@ -60,6 +60,10 @@ h2::first-line{
     text-transform: uppercase;
 }/*M2LO11 Demonstrate a pseudo-element selector*/
 
+a[target]{
+    text-align: justify;
+}/*M2LO7 Demonstrate a CSS attribute selector other than class or id: uses the elem[att] selector*/
+
 
 
 

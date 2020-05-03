@@ -11,7 +11,8 @@ html{
 
 header > *{
     font-family: serif;
-}/*M2LO5 Demonstrate contextual selectors; parent > child (with* as wildcard for all children)*/
+}/*M2LO5 Demonstrate contextual selectors; parent > child (with* as wildcard for all children)
+M2LO13 Demonstrate how CSS can change presentation of textual elements: changing the font of the header*/
 header h1 {
     text-align: center;
     color: rgba(18, 126, 214, 0.897);

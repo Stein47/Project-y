@@ -54,9 +54,11 @@ ol {
 
 ol > li:first-of-type{
     font-weight: bold;
-}
+}/*M2LO11 Demonstrate a pseudo-classes selector*/
 
-
+h2::first-line{
+    text-transform: uppercase;
+}/*M2LO11 Demonstrate a pseudo-element selector*/
 
 
 

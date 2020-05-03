@@ -14,6 +14,7 @@ header > *{
 }/*M2LO5 Demonstrate contextual selectors; parent > child (with* as wildcard for all children)*/
 header h1 {
     text-align: center;
+    color: rgba(18, 126, 214, 0.897);
 }/*M2LO5 Demonstrate contextual selectors; parent child*/
 
 p {
@@ -23,10 +24,12 @@ like the rest of the body since it is more specific*/
 
 body {
     color: black;
+    text-align: center;
 }
 
 article{
     text-align: center;
+    color: green;
 }/*M2LO3 Demonstrate style precedence and inheritance in CSS; p will be aligned with
 other things in the article due to inheritance*/
 
@@ -34,7 +37,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+}/*M2LO12 Demonstrate how CSS can change presentation of page elements; aligns the image to the middle of the screen*/
 
 h2#Favorites {
     font-family: serif;
@@ -43,6 +46,10 @@ h2#Favorites {
 .intro {
     font-size: medium;
 }/*M2LO6  Demonstrate a CSS class selector*/
+
+ol {
+    color
+}
 
 
 

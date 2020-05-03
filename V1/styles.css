@@ -7,7 +7,7 @@ Date: 5/2/20
 
 html{
     background-color: seagreen;
-}
+}/*M2LO15 Apply colors using CSS */
 
 p {
     color: blue;
@@ -25,7 +25,9 @@ article{
 other things in the article due to inheritance*/
 
 img {
-    align-self;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

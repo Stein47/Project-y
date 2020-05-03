@@ -24,6 +24,9 @@ like the rest of the body since it is more specific*/
 
 body {
     color: rgb(14, 45, 150);
+    color: hsl(238, 100%, 50%);/*M2LO14 Demonstrate and explain the use of progressive enhancement; places code that conforms
+    to older standards before newer properties, therefore allowing older computers to still place a value on the code.
+    It essentially just allows all computers to see the values*/
     text-align: center;
 }
 

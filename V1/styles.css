@@ -10,12 +10,11 @@ html{
 }/*M2LO15 Apply colors using CSS */
 
 p {
-    color: blue;
+    color: rgba(7, 88, 32, 0.712);
 }/*M2LO3 Demonstrate style precedence in CSS; p will take on the blue color instead of black
 like the rest of the body since it is more specific*/
 
 body {
-
     color: black;
 }
 

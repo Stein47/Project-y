@@ -5,8 +5,12 @@ Author: Austin Raffelock
 Date: 5/2/20
 */
 
-p {color: blue;}
+p {color: blue;}/*M2LO3 Demonstrate style precedence in CSS; p will take on the blue color instead of black
+like the rest of the body since it is more specific*/
 body {color: black;}
+article{text-align: center;}/*M2LO3 Demonstrate style precedence and inheritance in CSS; p will be aligned with
+other things in the article due to inheritance*/
+img {align-self;}
 
 
 

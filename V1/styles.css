@@ -48,8 +48,15 @@ h2#Favorites {
 }/*M2LO6  Demonstrate a CSS class selector*/
 
 ol {
-    color
+    color: blue
+
 }
+
+ol > li:first-of-type{
+    font-weight: bold;
+}
+
+
 
 
 

@@ -6,11 +6,18 @@ Date: 5/2/20
 */
 
 html{
-    background-color: rgb(105, 86, 33);
+    background-color: rgb(231, 108, 25);
 }/*M2LO15 Apply colors using CSS */
 
+header > *{
+    font-family: serif;
+}
+header h1 {
+    text-align: center;
+}
+
 p {
-    color: rgba(7, 88, 32, 0.712);
+    color: rgba(18, 126, 214, 0.897);
 }/*M2LO3 Demonstrate style precedence in CSS; p will take on the blue color instead of black
 like the rest of the body since it is more specific*/
 

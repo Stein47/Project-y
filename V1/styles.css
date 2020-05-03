@@ -36,6 +36,13 @@ img {
     margin-right: auto;
 }
 
+h2#Favorites {
+    font-family: serif;
+}/*M2LO6  Demonstrate a CSS id selector*/
+
+.intro {
+    font-size: medium;
+}/*M2LO6  Demonstrate a CSS class selector*/
 
 
 

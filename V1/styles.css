@@ -11,10 +11,10 @@ html{
 
 header > *{
     font-family: serif;
-}
+}/*M2LO5 Demonstrate contextual selectors; parent > child (with* as wildcard for all children)*/
 header h1 {
     text-align: center;
-}
+}/*M2LO5 Demonstrate contextual selectors; parent child*/
 
 p {
     color: rgba(18, 126, 214, 0.897);

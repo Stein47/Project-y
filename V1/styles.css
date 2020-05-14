@@ -26,12 +26,6 @@ body {
     font-family: serif;
 }
 
-article{
-    text-align: center;
-    color: green;
-}/*M2LO3 Demonstrate style precedence and inheritance in CSS; p will be aligned with
-other things in the article due to inheritance*/
-
 img {
     display: block;
     margin-left: auto;

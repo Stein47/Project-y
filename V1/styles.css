@@ -10,9 +10,8 @@ html{
 }/*M2LO15 Apply colors using CSS */
 
 header > *{
-    font-family: serif;
-}/*M2LO5 Demonstrate contextual selectors; parent > child (with* as wildcard for all children)
-M2LO13 Demonstrate how CSS can change presentation of textual elements: changing the font of the header*/
+    
+}
 header h1 {
     text-align: center;
     color: rgba(18, 126, 214, 0.897);
@@ -25,10 +24,8 @@ like the rest of the body since it is more specific*/
 
 body {
     color: rgb(14, 45, 150);
-    color: hsl(238, 100%, 50%);/*M2LO14 Demonstrate and explain the use of progressive enhancement; places code that conforms
-    to older standards before newer properties, therefore allowing older computers to still place a value on the code.
-    It essentially just allows all computers to see the values*/
     text-align: center;
+    font-family: serif;
 }
 
 article{
@@ -43,10 +40,6 @@ img {
     margin-right: auto;
 }/*M2LO12 Demonstrate how CSS can change presentation of page elements; aligns the image to the middle of the screen*/
 
-h2#Favorites {
-    font-family: serif;
-}/*M2LO6  Demonstrate a CSS id selector*/
-
 .intro {
     font-size: medium;
 }/*M2LO6  Demonstrate a CSS class selector*/
@@ -56,17 +49,6 @@ ol {
 
 }
 
-ol > li:first-of-type{
-    font-weight: bold;
-}/*M2LO11 Demonstrate a pseudo-classes selector*/
-
-h2::first-line{
-    text-transform: uppercase;
-}/*M2LO11 Demonstrate a pseudo-element selector*/
-
-a[target]{
-    text-align: justify;
-}/*M2LO7 Demonstrate a CSS attribute selector other than class or id: uses the elem[att] selector*/
 
 
 

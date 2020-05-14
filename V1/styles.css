@@ -11,6 +11,9 @@ html{
 
 ul {
     list-style-type: none;
+}
+
+ul li{
     display: inline;
     text-align: center;
 }

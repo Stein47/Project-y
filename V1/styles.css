@@ -11,11 +11,13 @@ html{
 
 ul {
     list-style-type: none;
+    float: left;
+    text-align: center;
 }
 
-ul li{
-    display: inline;
-    text-align: center;
+ul a{
+    display: block;
+    padding: 8px;
 }
 
 header {

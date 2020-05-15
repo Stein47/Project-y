@@ -20,10 +20,10 @@ ul a{
     padding: 8px;
 }
 
-a: link {
+a:link {
     color: rgba(18, 126, 214, 0.897);
 }
-a :visited{
+a:visited{
     color: blue;
 }
 header {
@@ -48,7 +48,8 @@ img {
 }/*M2LO6  Demonstrate a CSS class selector*/
 
 ol {
-    color: blue
+    color: blue;
+    display: block;
 
 }
 

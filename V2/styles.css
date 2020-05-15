@@ -27,7 +27,8 @@ body {
 ul {
     list-style-type: none;
     overflow: hidden;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     background-color: rgb(59, 6, 6);
 }
 ul li{
@@ -36,7 +37,7 @@ ul li{
 
 ul li a{
     display: block;
-    padding-left: 100px;
+    padding-left: 150px;
     text-align: center;
 }
 
@@ -45,6 +46,7 @@ ol {
     display: block;
     list-style-type: none;
     text-align: center;
+    padding-right: 15px;
 }
  ol li{
      padding-top: 5px;

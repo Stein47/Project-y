@@ -1,0 +1,80 @@
+@charset "utf-8";
+/*
+Styles.css StyleSheet
+Author: Austin Raffelock
+Date: 5/2/20
+*/
+
+/*Vague Styles*/
+
+html{
+    background-color: rgb(36, 16, 3);
+}/*M2LO15 Apply colors using CSS */
+
+header {
+    text-align: center;
+    color: rgba(18, 126, 214, 0.897);
+}/*M2LO5 Demonstrate contextual selectors; parent child*/
+
+body {
+    color: rgba(18, 126, 214, 0.897);
+    text-align: center;
+    font-family: serif;
+}
+
+
+/*List Styles*/
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 30;
+    background-color: rgb(59, 6, 6);
+}
+ul li{
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 8px;
+    text-align: center;
+}
+
+ol {
+    color: blue;
+    display: block;
+    list-style-type: none;
+}
+ ol li{
+     padding-top: 50px;
+ }
+
+/*Links*/
+
+a:link {
+    color: rgba(18, 126, 214, 0.897);
+}
+a:visited{
+    color: rgb(44, 83, 167);
+}
+
+
+/*Other*/
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}/*M2LO12 Demonstrate how CSS can change presentation of page elements; aligns the image to the middle of the screen*/
+
+.intro {
+    font-size: medium;
+}/*M2LO6  Demonstrate a CSS class selector*/
+
+
+
+
+
+
+
+

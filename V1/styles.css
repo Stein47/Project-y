@@ -20,6 +20,12 @@ ul a{
     padding: 8px;
 }
 
+a: link {
+    color: rgba(18, 126, 214, 0.897);
+}
+a :visited{
+    color: blue;
+}
 header {
     text-align: center;
     color: rgba(18, 126, 214, 0.897);

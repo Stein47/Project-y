@@ -27,7 +27,7 @@ body {
 ul {
     list-style-type: none;
     overflow: hidden;
-    padding: 30;
+    padding-bottom: 30px;
     background-color: rgb(59, 6, 6);
 }
 ul li{
@@ -36,7 +36,7 @@ ul li{
 
 li a{
     display: block;
-    padding-left: 50px;
+    padding-left: 100px;
     text-align: center;
 }
 

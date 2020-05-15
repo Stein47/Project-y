@@ -5,10 +5,25 @@ Author: Austin Raffelock
 Date: 5/2/20
 */
 
+/*Vague Styles*/
+
 html{
     background-color: rgb(36, 16, 3);
 }/*M2LO15 Apply colors using CSS */
 
+header {
+    text-align: center;
+    color: rgba(18, 126, 214, 0.897);
+}/*M2LO5 Demonstrate contextual selectors; parent child*/
+
+body {
+    color: rgba(18, 126, 214, 0.897);
+    text-align: center;
+    font-family: serif;
+}
+
+
+/*List Styles*/
 ul {
     list-style-type: none;
     float: left;
@@ -23,22 +38,23 @@ li a{
     text-align: center;
 }
 
+ol {
+    color: blue;
+    display: block;
+
+}
+
+/*Links*/
+
 a:link {
     color: rgba(18, 126, 214, 0.897);
 }
 a:visited{
     color: rgb(42, 42, 167);
 }
-header {
-    text-align: center;
-    color: rgba(18, 126, 214, 0.897);
-}/*M2LO5 Demonstrate contextual selectors; parent child*/
 
-body {
-    color: rgba(18, 126, 214, 0.897);
-    text-align: center;
-    font-family: serif;
-}
+
+/*Other*/
 
 img {
     display: block;
@@ -50,11 +66,6 @@ img {
     font-size: medium;
 }/*M2LO6  Demonstrate a CSS class selector*/
 
-ol {
-    color: blue;
-    display: block;
-
-}
 
 
 

@@ -37,7 +37,7 @@ ul li{
 
 ul li a{
     display: block;
-    padding-left: 250px;
+    padding-left: 225px;
     text-align: center;
 }
 
@@ -46,7 +46,7 @@ ol {
     display: block;
     list-style-type: none;
     text-align: center;
-    padding-right: 50px;
+    padding-right: 40px;
 }
  ol li{
      padding-top: 5px;

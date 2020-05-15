@@ -44,8 +44,10 @@ ol {
     color: blue;
     display: block;
     list-style-type: none;
-
 }
+ ol li{
+     padding-top: 50px;
+ }
 
 /*Links*/
 

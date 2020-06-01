@@ -76,11 +76,16 @@ img {
 
 
 /*Media Styles*/
+a.submenu:hover+ul#Genre, ul#Genre:hover{
+    display: block;
+}
+
 @media screen {
     ol{
         font-weight: lighter;
     }
-}/*M5LO3 Use media queries to format a page differently for phones vs. PCs. For normal computers the ordered list wil*/
+}/*M5LO3 Use media queries to format a page differently for phones vs. PCs. For normal computers the ordered list will be 
+lighter in font*/
 
 @media handheld{
     ol{

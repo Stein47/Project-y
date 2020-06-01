@@ -74,6 +74,19 @@ img {
     font-size: medium;
 }/*M2LO6  Demonstrate a CSS class selector*/
 
+/*Media Styles*/
+@media screen {
+    ol{
+        font-weight: lighter;
+    }
+}
+
+@media handheld{
+    ol{
+        font-weight: bold;
+    }
+}
+
 
 
 

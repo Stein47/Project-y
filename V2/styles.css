@@ -79,13 +79,13 @@ img {
     ol{
         font-weight: lighter;
     }
-}
+}/*M5LO3 Use media queries to format a page differently for phones vs. PCs. For normal computers the ordered list wil*/
 
 @media handheld{
     ol{
         font-weight: bold;
     }
-}
+}/*M5LO3 Use media queries to format a page differently for phones vs. PCs. For a Mobile the ordered list will be bold*/
 
 
 

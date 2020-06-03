@@ -4,3 +4,42 @@ Rec_styles.css StyleSheet
 Author: Austin Raffelock
 Date: 5/2/20
 */
+
+/*Vague Styles*/
+
+html{
+    background-color: rgb(36, 16, 3);
+}/*M2LO15 Apply colors using CSS */
+
+header {
+    text-align: center;
+    color: rgba(18, 126, 214, 0.897);
+}/*M2LO5 Demonstrate contextual selectors; parent child*/
+
+body {
+    color: rgba(18, 126, 214, 0.897);
+    text-align: center;
+    font-family: serif;
+    display: flex;/*M5LO5 Demonstrate the use of flexboxes on a web page*/
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;/*M5LO7 Demonstrate use of properties of flexbox containers. row wrap causes the 
+    container to wrap to the next row if it gets too long*/
+}
+
+/*List Styles*/
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(59, 6, 6);
+}
+ul li{
+    float: left;
+}
+
+ul li a{
+    display: block;
+    padding-left: 215px;
+    text-align: center;
+}

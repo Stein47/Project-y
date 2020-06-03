@@ -20,10 +20,6 @@ body {
     color: rgba(18, 126, 214, 0.897);
     text-align: center;
     font-family: serif;
-    display: flex;/*M5LO5 Demonstrate the use of flexboxes on a web page*/
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;/*M5LO7 Demonstrate use of properties of flexbox containers. row wrap causes the 
-    container to wrap to the next row if it gets too long*/
 }
 
 

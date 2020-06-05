@@ -30,8 +30,8 @@ table.Genre{
 }/*M6LO7 Demonstrate how to format a table with CSS*/
 
 table.Genre th{
-    border: 3px rgb(117, 6, 6);
+    border: 3px solid rgb(117, 6, 6);
 }
 table.Genre td{
-    border: 3px rgb(165, 9, 9);
+    border: 3px solid rgb(165, 9, 9);
 }

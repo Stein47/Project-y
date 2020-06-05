@@ -29,6 +29,9 @@ table.Genre{
     width: 100%;
 }
 
-table.Genre th, table.Genre td{
-    border: 2px black;
+table.Genre th{
+    border: 3px rgb(117, 6, 6);
+}
+table.Genre td{
+    border: 3px rgb(165, 9, 9);
 }

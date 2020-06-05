@@ -24,10 +24,10 @@ img #item2 {
 /*Table Styles*/
 
 table.Genre{
-    background-color: rgba(119, 66, 4, 0.911);
+    background-color: rgba(61, 34, 3, 0.911);
     border: 10px outset rgba(110, 92, 72, 0.911);
     width: 100%;
-}
+}/*M6LO7 Demonstrate how to format a table with CSS*/
 
 table.Genre th{
     border: 3px rgb(117, 6, 6);

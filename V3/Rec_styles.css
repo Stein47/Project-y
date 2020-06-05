@@ -24,7 +24,7 @@ img #item2 {
 /*Table Styles*/
 
 table.Genre{
-    background-color: rgb(rgba(119, 66, 4, 0.911));
+    background-color: rgba(119, 66, 4, 0.911);
     border: 10px outset rgba(110, 92, 72, 0.911);
     width: 100%;
 }

@@ -39,3 +39,6 @@ table.Genre td{
     border-top: 3px solid black;    
     border-bottom: 2px solid black;
 }
+tr#RPG {
+    border-bottom: 3px solid rgb(117, 6, 6);
+}

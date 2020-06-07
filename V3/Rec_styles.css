@@ -30,14 +30,14 @@ table.Genre{
 }/*M6LO7 Demonstrate how to format a table with CSS*/
 
 table.Genre th{
-    border: 3px solid rgb(165, 9, 9);
-    border-top: 3px solid black;    
-    border-bottom: 3px solid black;
+    border: 3px solid black;
+    border-top: 3px solid rgb(165, 9, 9);    
+    border-bottom: 3px solid rgb(165, 9, 9);
 }
 table.Genre td{
-    border: 3px solid rgb(117, 6, 6);
-    border-top: 3px solid black;    
-    border-bottom: 3px solid black;
+    border: 3px solid black;
+    border-top: 3px solid  rgb(117, 6, 6);    
+    border-bottom: 3px solid  rgb(117, 6, 6);
 }
 tr#RPG {
     border-bottom: 3px solid rgb(117, 6, 6);

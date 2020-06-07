@@ -40,5 +40,5 @@ table.Genre td{
     border-bottom: 3px solid  rgb(117, 6, 6);
 }
 tr#RPG {
-    border-bottom: 3px solid rgb(117, 6, 6);
+    border-bottom: none;
 }

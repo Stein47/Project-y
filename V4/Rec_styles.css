@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*
+Rec_styles.css StyleSheet
+Author: Austin Raffelock
+Date: 5/2/20
+*/
+
+/*Flex Styles*/
+
+article {
+    display: flex;/*M5LO5 Demonstrate the use of flexboxes on a web page*/
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;/*M5LO7 Demonstrate use of properties of flexbox containers. row wrap causes the 
+    container to wrap to the next row if it gets too long*/
+    flex-basis: auto;/*M5LO6 Demonstrate use of properties of flexbox items. allows the limits of the boxes within to be
+    adjusted. */
+    flex-grow: 1;
+}
+img #item2 {
+    flex-basis: auto;
+    flex-grow: 2;
+}
+
+/*Table Styles*/
+
+table.Genre{
+    background-color: rgba(61, 34, 3, 0.911);
+    border: 10px outset rgba(110, 92, 72, 0.911);
+    width: 100%;
+}/*M6LO7 Demonstrate how to format a table with CSS*/
+
+table.Genre th{
+    border: 3px solid black;
+    border-top: 3px solid rgb(165, 9, 9);    
+    border-bottom: 3px solid rgb(165, 9, 9);
+}
+table.Genre td{
+    border: 3px solid black;
+    border-top: 3px solid  rgb(117, 6, 6);    
+    border-bottom: 3px solid  rgb(117, 6, 6);
+}
+tr#RPG {
+    border-bottom: none;
+}

@@ -1,0 +1,99 @@
+@charset "utf-8";
+/*
+Styles.css StyleSheet
+Author: Austin Raffelock
+Date: 5/2/20
+*/
+
+/*Vague Styles*/
+
+html{
+    background-color: rgb(36, 16, 3);
+}/*M2LO15 Apply colors using CSS */
+
+header {
+    text-align: center;
+    color: rgba(18, 126, 214, 0.897);
+}/*M2LO5 Demonstrate contextual selectors; parent child*/
+
+body {
+    color: rgba(18, 126, 214, 0.897);
+    text-align: center;
+    font-family: serif;
+}
+
+
+/*List Styles*/
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(59, 6, 6);
+}
+ul li{
+    float: left;
+}
+
+ul li a{
+    display: block;
+    padding-left: 225px;
+    text-align: center;
+}
+
+ol {
+    color: blue;
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    padding-right: 35px;
+}
+ ol li{
+     padding-top: 5px;
+ }
+
+/*Links*/
+
+a:link {
+    color: rgba(18, 126, 214, 0.897);
+}
+a:visited{
+    color: rgb(44, 83, 167);
+}
+
+
+/*Other*/
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}/*M2LO12 Demonstrate how CSS can change presentation of page elements; aligns the image to the middle of the screen*/
+
+.intro {
+    font-size: medium;
+}/*M2LO6  Demonstrate a CSS class selector*/
+
+
+/*Media Styles*/
+a.submenu:hover+ul#Genre, ul#Genre:hover{
+    display: block;
+}/*M5LO4 Use CSS for pull-down menus (or collapsible/expandable areas)*/ 
+
+@media screen {
+    ol{
+        font-weight: lighter;
+    }
+}/*M5LO3 Use media queries to format a page differently for phones vs. PCs. For normal computers the ordered list will be 
+lighter in font*/
+
+@media handheld{
+    ol{
+        font-weight: bold;
+    }
+}/*M5LO3 Use media queries to format a page differently for phones vs. PCs. For a Mobile the ordered list will be bold*/
+
+
+
+
+

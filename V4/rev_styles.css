@@ -19,11 +19,3 @@ textarea{
 div#buttons{
     margin-top: 5px;
 }
-
-/*M8LO12 Demonstrate how to format media with CSS
-#Submit:active + embed{
-    display: block;
-}
-embed {
-    display: none;
-}

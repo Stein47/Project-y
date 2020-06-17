@@ -74,6 +74,12 @@ img {
     font-size: medium;
 }/*M2LO6  Demonstrate a CSS class selector*/
 
+audio{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
 
 /*Media Styles*/
 a.submenu:hover+ul#Genre, ul#Genre:hover{

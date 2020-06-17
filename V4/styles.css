@@ -62,7 +62,16 @@ a:visited{
 }
 
 
-/*Other*/
+//*Other*/
+
+ul.submenu{
+    display: none;
+}
+
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover{
+    display: block;
+    text-decoration: none;
+}/*M5LO4 Use CSS for pull-down menus (or collapsible/expandable areas)*/ 
 
 img {
     display: block;
@@ -73,6 +82,12 @@ img {
 .intro {
     font-size: medium;
 }/*M2LO6  Demonstrate a CSS class selector*/
+
+audio{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;/*M8LO12 Demonstrate how to format media with CSS. Makes the audio window smaller and centered*/
+}
 
 
 /*Media Styles*/

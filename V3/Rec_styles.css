@@ -16,10 +16,6 @@ article {
     adjusted. */
     flex-grow: 1;
 }
-img #item2 {
-    flex-basis: auto;
-    flex-grow: 2;
-}
 
 /*Table Styles*/
 
@@ -41,4 +37,23 @@ table.Genre td{
 }
 tr#RPG {
     border-bottom: none;
+}
+
+/*Picture Style for crossfade*/
+
+#cf{
+    position: relative;
+    width: 500;
+    height: 250;
+    flex-basis: auto;
+    flex-grow: 2;
+}
+#cf img{
+    position: absolute;
+    left: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+    opacity: 0;
 }

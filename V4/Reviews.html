@@ -8,6 +8,7 @@ Date: 5/2/20-->
         <meta charset="UTF-8">
         <title>Gaming in Review</title>
         <link href="styles.css" rel="stylesheet"/><!--M1LO8-->
+        <link href="rev_styles.css" rel="stylesheet"/>
     </head>
     <body>       
         <header>
@@ -31,8 +32,10 @@ Date: 5/2/20-->
             Game*
             <input name="revGame" id="Game" type="text"/><br/>
 
+            <div id=url>
             Site that may explain this game, or where the game can be played
             <input name="revURL" id="URL" type="url"/><br/>
+            </div>
             
             Score<!--M7LO7 Demonstrate the use of radio buttons in a form-->
             <div id="radio">
@@ -61,7 +64,7 @@ Date: 5/2/20-->
             Review*
             <textarea name="review" id="textbox" rows="8" cols="150" ></textarea><br/>
             <!--M7LO9 Demonstrate the use of a text area in a form-->
-            
+            <div id="checkbox">
             Others<!--M7LO6 Demonstrate the use of check boxes in a form-->
             <input type="checkbox" id="others" name="replay" value="replay"/>
             <label for="replay">I have/would replay this</label>
@@ -69,6 +72,7 @@ Date: 5/2/20-->
             <label for="own">I own this game</label>
             <input type="checkbox" id="others" name="unfinished" value="unfinished"/>
             <label for="replay">I have not yet beaten this game</label>
+            </div>
 
             <div id="buttons">
                 <input type="submit" value="Submit" /><!--M7LO10 Demonstrate the use of a submit button in a form-->

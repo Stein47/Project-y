@@ -20,7 +20,7 @@ div#buttons{
     margin-top: 5px;
 }
 
-/*M8LO12 Demonstrate how to format media with CSS this creates a sound when the button for submit is pressed*/
+/*M8LO12 Demonstrate how to format media with CSS
 #Submit:active + embed{
     display: block;
 }

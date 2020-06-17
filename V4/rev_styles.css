@@ -8,14 +8,14 @@ Date: 6/16/20
 /*M7LO11 Demonstrate how to format a form with CSS. 
 This seperates out the instances on the form to make it a little more neat*/
 div#url{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 textarea{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 div#buttons{
-    margin-top: 5px;
+    margin-top: 10px;
 }

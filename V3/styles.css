@@ -64,6 +64,15 @@ a:visited{
 
 /*Other*/
 
+ul.submenu{
+    display: none;
+}
+
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover{
+    display: block;
+    text-decoration: none;
+}/*M5LO4 Use CSS for pull-down menus (or collapsible/expandable areas)*/ 
+
 img {
     display: block;
     margin-left: auto;
@@ -82,9 +91,6 @@ audio{
 
 
 /*Media Styles*/
-a.submenu:hover+ul#Genre, ul#Genre:hover{
-    display: block;
-}/*M5LO4 Use CSS for pull-down menus (or collapsible/expandable areas)*/ 
 
 @media screen {
     ol{

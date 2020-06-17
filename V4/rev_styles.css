@@ -5,7 +5,8 @@ Author: Austin Raffelock
 Date: 6/16/20
 */
 
-
+/*M7LO11 Demonstrate how to format a form with CSS. 
+This seperates out the instances on the form to make it a little more neat*/
 div#url{
     margin-top: 5px;
     margin-bottom: 5px;
@@ -17,4 +18,11 @@ textarea{
 
 div#buttons{
     margin-top: 5px;
+}
+
+div#buttons:active + embed{
+    display: block;
+}
+embed {
+    display: none;
 }

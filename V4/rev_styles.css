@@ -8,4 +8,13 @@ Date: 6/16/20
 
 div#url{
     margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+textarea{
+    margin-bottom: 5px;
+}
+
+div#buttons{
+    margin-top: 5px;
 }

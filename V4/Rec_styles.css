@@ -32,6 +32,9 @@ M8LO10 Demonstrate a CSS animation or transition- this code is so that there is 
 upon hovering over them.*/
 
 #cf{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     width: 500px;
     height: 250px;
@@ -42,6 +45,6 @@ upon hovering over them.*/
     transition: opacity 1s ease-in-out;
 }
 
-#cf img.top:hover {
+#cf img.bottom:hover {
     opacity: 0;
 }

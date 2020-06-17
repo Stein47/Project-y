@@ -39,7 +39,9 @@ tr#RPG {
     border-bottom: none;
 }
 
-/*Picture Style for crossfade*/
+/*Picture Style for crossfade
+M8LO10 Demonstrate a CSS animation or transition- this code is so that there is a transtion between 2 pictures
+upon hovering over them.*/
 
 #cf{
     position: relative;
